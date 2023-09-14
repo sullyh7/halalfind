@@ -44,7 +44,7 @@ const Map = ({ locations, className }: MapProps) => {
     zoom={14}
     center={mapCenter}
     mapTypeId={google.maps.MapTypeId.ROADMAP}
-    mapContainerStyle={{ width: '600px', height: '600px' }}
+    mapContainerStyle={{ width: "22rem", height: "50rem"}}
     onLoad={() => console.log('Map Component Loaded...')}
   />
   </div> 
