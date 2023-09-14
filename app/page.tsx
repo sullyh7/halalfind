@@ -1,12 +1,13 @@
 import Hero from '@/components/hero/Hero'
-import MainMap from '@/components/map/MainMap'
+import Locations from '@/components/locations/Locations'
 import React from 'react'
 
 const Home = () => {
   return (
     <>
       <Hero/>
-      <MainMap/>
+      <Locations/>  
+      
     </> 
   )
 }

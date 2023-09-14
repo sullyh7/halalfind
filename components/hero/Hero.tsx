@@ -10,7 +10,7 @@ const Hero = () => {
     items-center
     sm:justify-between gap-x-10 gap-y-10'>
         <div className='flex-2 flex flex-col gap-y-10'>
-        <h1 className='sm:text-[5rem] text-5xl font-extrabold'>
+        <h1 className='md:text-[5rem] sm:text-6xl text-5xl font-extrabold'>
             Find the best <span className='text-primary'>Halal</span>  food options for you.
         </h1>
         <p className='sm:text-3xl text-2xl'>

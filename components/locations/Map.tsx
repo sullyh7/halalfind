@@ -38,16 +38,28 @@ const Map = ({ locations, className }: MapProps) => {
         return <p>Loading...</p>;
     }
 
-  return <div className=''>
+  return <>
+  <div className='hidden sm:block'>
     <GoogleMap
     options={mapOptions}
     zoom={14}
     center={mapCenter}
     mapTypeId={google.maps.MapTypeId.ROADMAP}
-    mapContainerStyle={{ width: "22rem", height: "50rem"}}
+    mapContainerStyle={{ width: "100%", height: "50rem"}}
     onLoad={() => console.log('Map Component Loaded...')}
-  />
-  </div> 
+    />
+  </div>
+  <div className='sm:hidden'>
+    <GoogleMap
+    options={mapOptions}
+    zoom={14}
+    center={mapCenter}
+    mapTypeId={google.maps.MapTypeId.ROADMAP}
+    mapContainerStyle={{ width: "100%", height: "35rem"}}
+    onLoad={() => console.log('Map Component Loaded...')}
+    />
+  </div>
+  </>
 }
 
 export default Map
