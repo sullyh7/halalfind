@@ -13,7 +13,7 @@ const Hero = () => {
         <h1 className='sm:text-[5rem] text-5xl font-extrabold'>
             Find the best <span className='text-primary'>Halal</span>  food options for you.
         </h1>
-        <p className='text-3xl'>
+        <p className='sm:text-3xl text-2xl'>
             View all reviews from around the web along with dish reccomendations all in one place!</p>
         </div>
         

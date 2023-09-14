@@ -26,7 +26,7 @@ interface InputCardProps {
 
 export function InputCard({ className }: InputCardProps) {
   return (
-    <Card className={cn("w-[350px]", className)} >
+    <Card className={cn("w-[350px] h-full", className)} >
       <CardHeader>
         <CardTitle></CardTitle>
         <CardDescription>Your location will be detected.</CardDescription>

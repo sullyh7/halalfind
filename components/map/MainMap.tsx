@@ -11,8 +11,8 @@ const MainMap = ({ }: MainMapProps) => {
   
   // fetch locations
   return (
-    <div className='flex flex-col sm:flex-row justify-between'>
-      <InputCard className='flex-1'/>
+    <div className='flex flex-col sm:flex-row justify-center items-center sm:items-start'>
+      <InputCard className='h-full flex-1'/>
       <Map className='flex-1' locations={[]}/>
     </div>
   )
